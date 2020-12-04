@@ -61,6 +61,8 @@ class EngineController {
   // Blocks.
   void EnsureReady();
 
+  void DumpNode(const std::vector<std::string>& moves);
+
   // Must not block.
   void NewGame();
 
@@ -126,6 +128,7 @@ class EngineLoop : public UciLoop {
   void CmdUciNewGame() override;
   void CmdPosition(const std::string& position,
                    const std::vector<std::string>& moves) override;
+  void CmdDumpNode(const std::vector<std::string>& moves) override;
   void CmdGo(const GoParams& params) override;
   void CmdPonderHit() override;
   void CmdStop() override;

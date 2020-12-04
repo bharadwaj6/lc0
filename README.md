@@ -5,6 +5,9 @@
 
 Lc0 is a UCI-compliant chess engine designed to play chess via neural network, specifically those of the [LeelaChessZero project](https://lczero.org).
 
+# Dumpnode
+Based on https://github.com/petersn/leela-chess
+
 ## Downloading source
 
 Lc0 can be acquired either via a git clone or an archive download from GitHub. Be aware that there is a required submodule which isn't included in source archives.

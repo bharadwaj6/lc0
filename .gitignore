@@ -13,3 +13,6 @@ src/.vs/
 subprojects/*
 testdata/
 xcuserdata
+.idea
+CMakeLists.txt
+cmake-build-debug/
